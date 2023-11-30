@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.image-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-links a {
+    text-decoration: none;
+}
+
+.image-links img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-links img:hover {
+    transform: scale(1.1);
+}
